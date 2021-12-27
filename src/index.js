@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import Greeting from './Greeting';
+import BookList from './BookList';
+
 import reportWebVitals from './reportWebVitals';
+
+//css
+import './index.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Greeting />
-    <App />
+    <BookList />
   </React.StrictMode>,
   document.getElementById('root')
 );
